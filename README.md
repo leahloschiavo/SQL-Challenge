@@ -1,2 +1,2 @@
-# SQL-Challenge
+SQL-Challenge
 Homework 9
