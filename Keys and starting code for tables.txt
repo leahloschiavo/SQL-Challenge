@@ -1,0 +1,26 @@
+Departments
+-----
+dept_no PK string
+dept_name string 
+
+
+Dept_emp
+------
+emp_no PK FK >- Employees.emp_no int
+dept_no PK string FK >- Departments.dept_no
+
+
+Dept_manager as ol
+----
+dept_no PK string FK >- Departments.dept_no
+emp_no PK FK >- Employees.emp_no int
+
+
+
+Employees 
+------------
+emp_no PK Int
+emp_title_id FK >- Titles.title_id String
+birth_date date
+first_name String 
+last_name String
